@@ -20,8 +20,8 @@ int main(int argc, char *argv[]) {
     int status, lines, shmid, pid;
     int i, j;
     int i_num, s_num, d_num;
-    char shmstr[32];								/* string containing the semaphores location */
-    char *s; 										/* allocation of space for fgets() */
+    char shmstr[32];			/* string containing the semaphores location */
+    char *s; 					/* allocation of space for fgets() */
     char* lines_str = malloc(64 * sizeof(char)); 	/* for the exec functions, we give lines as arguments */
     union semun arg;
     
